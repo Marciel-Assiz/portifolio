@@ -236,55 +236,6 @@ a:active {
   color: #f300b4;
 }
 
-@media only screen and (max-width: 649px) {
-  .menu-container {
-    border: none;
-  }
-
-  .menu-container > .overlay,
-  .menu-container.active > .overlay {
-    height: 100vh;
-    width: 100vw;
-  }
-  
-  .menu-container.active > .overlay {
-    animation: overlay-slide-in 300ms forwards 300ms;
-  }
-  
-  @keyframes overlay-slide-in {
-    from {
-      width: 100vw;
-    }
-    to {
-      width: 0;
-    }
-  }
-  
-  .menu-container > .overlay {
-    animation: overlay-slide-out 300ms forwards;
-  }
-  
-  @keyframes overlay-slide-out {
-    from {
-      left: 0;
-      width: 0;
-    }
-    to {
-      left: 0;
-      width: 100vw;
-    }
-  }
-}
-
-
-
-
-
-
-
-
-
-
 
 /*****************
  *****************
@@ -374,26 +325,9 @@ a:active {
   top: 0px;
 }
 
-@media only screen and (max-width: 849px) {
-  #navbar {
-    background: #181d23aa;
-  }
-}
-
-
-
-
-
-
-
-
-
-
 
 /*****************
- *****************
    HEADER STYLES
- *****************
  *****************/
 
 #welcome-section {
@@ -587,43 +521,8 @@ a:active {
   font-style: italic;
 }
 
-@media only screen and (max-width: 649px) {
-  #welcome-section .container {
-    right: 50%;
-    top: 10%;
-    width: 80%;
-    transform: translate(50%, 0);
-    animation: text-fade-in 1000ms 800ms forwards;
-  }
-
-  @keyframes text-fade-in {
-    from {
-      right: 0;
-    }
-    to {
-      opacity: 1;
-      right: 50%;
-    }
-  }
-
-  .silhouette {
-    width: 100%;
-  }
-}
-
-
-
-
-
-
-
-
-
-
 /*****************
- *****************
    ABOUT STYLES
- *****************
  *****************/
 
 #about {
@@ -697,45 +596,9 @@ a:active {
   text-align: justify;
 }
 
-@media only screen and (max-width: 1149px) {
-  #about article {
-    grid-template-columns: 1fr;
-    grid-gap: 0;
-  }
-  #about .desc.full {
-    grid-column-end: -1;
-  }
-
-  #about .desc {
-    grid-column-end: -1;
-  }
-}
-@media only screen and (max-width: 949px) {
-  #about {
-    clip-path: polygon(0 0, 20% 2%, 100% 0, 100% 100%, 80% 98%, 0 100%);
-    background-position: top left;
-    background-size: cover;
-  }
-}
-@media only screen and (max-width: 649px) {
-  #about .wrapper {
-    padding: 10rem 2rem 8rem;
-  }
-}
-
-
-
-
-
-
-
-
-
 
 /*****************
- *****************
   PROJECTS STYLES
- *****************
  *****************/
 
 #projects {
@@ -791,7 +654,7 @@ a:active {
 /* Single Project */
 #projects .project {
   margin: 1rem auto;
-  width: 70%;
+  width: 100%;
   padding: 2rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -817,12 +680,12 @@ a:active {
 
 #projects .project .project-link:hover > img {
   filter: saturate(1);
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 #projects .project .project-image {
   width: 100%;
-  transform: scale(1.1);
+  transform: scale(1.15);
   filter: saturate(1.5);
   transition: all 300ms;
 }
@@ -833,7 +696,7 @@ a:active {
 }
 
 #projects .project-details .project-tile {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 0;
@@ -854,10 +717,12 @@ a:active {
 
 /* Text */
 #projects .project-details small {
+  font-size: .9rem;
   font-style: italic;
 }
 
 #projects .project-details p {
+  font-size: 1.1rem;
   margin: 1rem 0;
 }
 
@@ -888,46 +753,12 @@ a:active {
   vertical-align: middle;
   margin-left: .5rem;;
 }
-
-
-@media only screen and (max-width: 1149px) {
-  #projects .project {
-    grid-template-columns: 1fr 2fr;
-  }
-}
-
-@media only screen and (max-width: 949px) {
-  #projects .project {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media only screen and (max-width: 649px) {
-  #projects {
-    background: #f0f0f0;
-  }
-  #projects .projects-container {
-    padding: 12rem 0 8rem;
-  }
-  #projects .project {
-    padding: 2rem 0;
-  }
-}
 .fa-view-source {
   display: none;
 }
 
-
-
-
-
-
-
-
 /*****************
- *****************
    CONTACT STYLES
- *****************
  *****************/
 
 #contact {
@@ -1046,32 +877,8 @@ input[type="submit"]:focus {
 }
 
 
-@media only screen and (max-width: 1149px) {
-  #contact .social a {
-    display: block;
-  }
-}
-
-@media only screen and (max-width: 649px) {
-  #contact {
-    clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 0 100%);
-    padding: 0;
-  }
-}
-
-
-
-
-
-
-
-
-
-
 /*****************
- *****************
    FOOTER STYLES
- *****************
  *****************/
 
 footer {
@@ -1094,14 +901,4 @@ footer .wrapper {
   max-width: 1400px;
   align-items: center;
   justify-content: space-between;
-}
-
-@media only screen and (max-width: 649px) {
-  footer .wrapper {
-    flex-direction: column;
-  }
-
-  footer .wrapper h3 {
-    padding-bottom: .8rem;
-  }
 }

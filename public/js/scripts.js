@@ -114,7 +114,7 @@ const About = props => {
 const Projects = props => {
 return /*#__PURE__*/(
     React.createElement("section", { id: "projects" }, /*#__PURE__*/
-    React.createElement("div", { className: "projects-container" }, /*#__PURE__*/
+    React.createElement("div", { className: "projects-container container-fluid" }, /*#__PURE__*/
     React.createElement("div", { className: "heading" }, /*#__PURE__*/
     React.createElement("h3", { className: "title" }, "Meus trabalhos"), /*#__PURE__*/
     React.createElement("p", { className: "separator" }), /*#__PURE__*/
@@ -167,7 +167,7 @@ const Project = props => {
   const repo = props.repo || "http://";
 
   return /*#__PURE__*/(
-    React.createElement("div", { className: "project" }, /*#__PURE__*/
+    React.createElement("div", { className: "project col-12" }, /*#__PURE__*/
     React.createElement("a", {
       className: "project-link",
       href: link,
