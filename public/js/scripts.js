@@ -118,7 +118,7 @@ return /*#__PURE__*/(
     React.createElement("div", { className: "heading" }, /*#__PURE__*/
     React.createElement("h3", { className: "title" }, "Meus trabalhos"), /*#__PURE__*/
     React.createElement("p", { className: "separator" }), /*#__PURE__*/
-    React.createElement("p", { className: "subtitle" }, "Aqui vou deixar alguns exemplos com animações de uma loja virtual criada por mim.")),
+  React.createElement("p", { className: "subtitle" }, "Logo abaixo você verá alguns exemplos com animações de uma loja virtual criada por mim, com algumas explicações das suas funcionalidades.")),
 
 
     React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
@@ -130,7 +130,7 @@ return /*#__PURE__*/(
     link: "https://yagoestevez-anon-msg-board.glitch.me/"},
     //repo: "https://github.com/" }, /*#__PURE__*/
     React.createElement("small", null, "Loja desenvolvida sobre o framework Laravel."), /*#__PURE__*/
-    React.createElement("p", null, "Ecommerce com um visual bonito e prático, além de moderno.. muito rápido.")), /*#__PURE__*/
+    React.createElement("p", null, "Ecommerce com um visual bonito, prático e responsivo.")), /*#__PURE__*/
 
 
 
