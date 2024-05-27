@@ -125,9 +125,9 @@ return /*#__PURE__*/(
     React.createElement(Project, {
     title: "Design moderno",
     img:
-    "public/img/grav-macbook-gif.gif",
+    "public/img/loja-infantil-exemplo.assiz.com.br.gif",
     tech: "Framework Laravel, PHP, js, css",
-    link: "https://yagoestevez-anon-msg-board.glitch.me/"},
+    link: "http://loja-infantil-exemplo.assiz.com.br/"},
     //repo: "https://github.com/" }, /*#__PURE__*/
     React.createElement("small", null, "Loja desenvolvida sobre o framework Laravel."), /*#__PURE__*/
     React.createElement("p", null, "Ecommerce com um visual bonito, prático e responsivo.")), /*#__PURE__*/
@@ -136,14 +136,14 @@ return /*#__PURE__*/(
 
 
     React.createElement(Project, {
-    title: "Stock Price Checker.",
+    title: "Menu inteligente e responsivo.",
     img:
-    "https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Components/Projects/Images/StockPriceChecker.jpg",
+    "public/img/loja-infantil-exemplo.assiz.com.br2.gif",
     tech: "js node css",
-    link: "https://yagoestevez-stock-price-checker.glitch.me/",
-    repo: "https://github.com/yagoestevez/fcc-stock-price-checker" }, /*#__PURE__*/
-    React.createElement("small", null, "Built using Node, Express, MongoDB, JS + jQuery + Axios, CSS + Bootstrap and Pug."), /*#__PURE__*/
-    React.createElement("p", null, "Another full-stack website to check the current value of any requested stock in the market.")), /*#__PURE__*/
+    link: "http://loja-infantil-exemplo.assiz.com.br//",
+    repo: "https://github.com/" }, /*#__PURE__*/
+    React.createElement("small", null, ""), /*#__PURE__*/
+    React.createElement("p", null, "Menu e sub-menu agíl para buscar por categoria, sub-categoria, cor, tamanho, ou preço.")), /*#__PURE__*/
 
 
     ))));

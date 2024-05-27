@@ -680,12 +680,12 @@ a:active {
 
 #projects .project .project-link:hover > img {
   filter: saturate(1);
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 #projects .project .project-image {
   width: 100%;
-  transform: scale(1.15);
+  transform: scale(1);
   filter: saturate(1.5);
   transition: all 300ms;
 }
