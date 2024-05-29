@@ -218,12 +218,15 @@ a:active {
 }
 
 .social {
-  padding: 1rem 0 0 .5rem;
+  position: absolute;
+  width: 65%;
+  text-align: center;
+  margin-top: -70px;
 }
 
 .social a {
-  font-size: 1.5rem;
-  padding: .2rem;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .menu-container a,
@@ -530,10 +533,11 @@ a:active {
   min-height: 100vh;
   font-size: 1.4rem;
   position: relative;
-  background: #fafafa;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: #fafafa url(https://raw.githubusercontent.com/yagoestevez/fcc-portfolio/master/src/Images/Author_BG.jpg) center right no-repeat;
+  background: #fafafa url(/public/img/marciel.png) center right no-repeat;
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
   background-attachment: fixed;
 }
 

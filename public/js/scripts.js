@@ -125,9 +125,9 @@ return /*#__PURE__*/(
     React.createElement(Project, {
     title: "Design moderno",
     img:
-    "public/img/loja-infantil-exemplo.assiz.com.br.gif",
-    tech: "Framework Laravel, PHP, js, css",
-    link: "http://loja-infantil-exemplo.assiz.com.br/"},
+    "http://135.148.144.81/storage/produtos/gif-kids.gif",
+    tech: "",
+    link: "http://135.148.144.81/?pag=loja-de-roupas-kids/"},
     //repo: "https://github.com/" }, /*#__PURE__*/
     React.createElement("small", null, "Loja desenvolvida sobre o framework Laravel."), /*#__PURE__*/
     React.createElement("p", null, "Ecommerce com um visual bonito, prático e responsivo.")), /*#__PURE__*/
@@ -139,8 +139,8 @@ return /*#__PURE__*/(
     title: "Menu inteligente e responsivo.",
     img:
     "public/img/loja-infantil-exemplo.assiz.com.br2.gif",
-    tech: "js node css",
-    link: "http://loja-infantil-exemplo.assiz.com.br//",
+    tech: "",
+    link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
     repo: "https://github.com/" }, /*#__PURE__*/
     React.createElement("small", null, ""), /*#__PURE__*/
     React.createElement("p", null, "Menu e sub-menu agíl para buscar por categoria, sub-categoria, cor, tamanho, ou preço.")), /*#__PURE__*/
@@ -212,18 +212,18 @@ const Contact = props => {
     React.createElement("div", { className: "container" }, /*#__PURE__*/
     React.createElement("div", { className: "heading-wrapper" }, /*#__PURE__*/
     React.createElement("div", { className: "heading" }, /*#__PURE__*/
-    React.createElement("p", { className: "title" }, "Want to ", /*#__PURE__*/
-    React.createElement("br", null), "contact me?"), /*#__PURE__*/
+    React.createElement("p", { className: "title" }, "Me mande", /*#__PURE__*/
+    React.createElement("br", null), "uma mensagem"), /*#__PURE__*/
 
 
     React.createElement("p", { className: "separator" }), /*#__PURE__*/
-    React.createElement("p", { className: "subtitle" }, "Please, use the form below or send an email to ",
-    "", /*#__PURE__*/
-    React.createElement("span", { className: "mail" }, "web", /*#__PURE__*/
+    React.createElement("p", { className: "subtitle" }, "Por favor, preencha o formulário abaixo ou envie um email para ",
+    "", 
+    React.createElement("span", { className: "mail" }, "marciel.emersom", /*#__PURE__*/
 
-    React.createElement("i", { className: "fas fa-at at" }), "yagoestevez", /*#__PURE__*/
+    React.createElement("i", { className: "fas fa-at at" }), "gmail", /*#__PURE__*/
 
-    React.createElement("i", { className: "fas fa-circle dot" }), "com"), ":")), /*#__PURE__*/
+    React.createElement("i", { className: "fas fa-circle dot" }), "com"), "")), /*#__PURE__*/
 
 
 
@@ -249,8 +249,8 @@ const Footer = props => {
   return /*#__PURE__*/(
     React.createElement("footer", null, /*#__PURE__*/
     React.createElement("div", { className: "wrapper" }, /*#__PURE__*/
-    React.createElement("h3", null, "THANKS FOR VISITING"), /*#__PURE__*/
-    React.createElement("p", null, "\xA9 ", new Date().getFullYear(), " Yago Est\xE9vez."), /*#__PURE__*/
+    React.createElement("h3", null, "OBRIGADO PELA VISITA!!!"), /*#__PURE__*/
+    React.createElement("p", null, "\xA9 ", new Date().getFullYear(), " Marciel Assiz."), /*#__PURE__*/
     React.createElement(SocialLinks, null))));
 
 
@@ -263,35 +263,34 @@ const Footer = props => {
 const SocialLinks = props => {
   return /*#__PURE__*/(
     React.createElement("div", { className: "social" }, /*#__PURE__*/
+
     React.createElement("a", {
-      href: "https://twitter.com/yagoestevez",
+      href: "https://www.instagram.com/assizmarciel/",
       target: "_blank",
       rel: "noopener noreferrer",
-      title: "Link to author's Twitter profile" },
+      title: "Link para meu perfil do Instagam" },
 
     " ", /*#__PURE__*/
-    React.createElement("i", { className: "fab fa-twitter" })), /*#__PURE__*/
+    React.createElement("i", { className: "fab fa-instagram" })), /*#__PURE__*/
+
+    React.createElement("a", {
+      href: "https://www.facebook.com/marciel.assiz/",
+      target: "_blank",
+      rel: "noopener noreferrer",
+      title: "Link para meu perfil do Facebook" },
+
+    " ", /*#__PURE__*/
+    React.createElement("i", { className: "fab fa-facebook" })), /*#__PURE__*/
 
     React.createElement("a", {
       id: "profile-link",
-      href: "https://github.com/yagoestevez",
+      href: "https://github.com/Marciel-Assiz",
       target: "_blank",
       rel: "noopener noreferrer",
-      title: "Link to author's GitHub Profile" },
+      title: "Link para meu GitHub" },
 
-    " ", /*#__PURE__*/
-    React.createElement("i", { className: "fab fa-github" })), /*#__PURE__*/
-
-    React.createElement("a", {
-      href: "https://codepen.io/yagoestevez",
-      target: "_blank",
-      rel: "noopener noreferrer",
-      title: "Link to author's Codepen Profile" },
-
-    " ", /*#__PURE__*/
+    " ",/*#__PURE__*/
     React.createElement("i", { className: "fab fa-codepen" }))));
-
-
 
 };
 
