@@ -125,7 +125,7 @@ return /*#__PURE__*/(
     React.createElement(Project, {
     title: "Design moderno",
     img:
-    "http://135.148.144.81/storage/produtos/gif-kids.gif",
+    "http://135.148.144.81/img/loja-infantil-exemplo.assiz.com.br.gif",
     tech: "",
     link: "http://135.148.144.81/?pag=loja-de-roupas-kids/"},
     //repo: "https://github.com/" }, /*#__PURE__*/
@@ -134,16 +134,39 @@ return /*#__PURE__*/(
 
 
 
-
     React.createElement(Project, {
     title: "Menu inteligente e responsivo.",
     img:
-    "public/img/loja-infantil-exemplo.assiz.com.br2.gif",
+    "http://135.148.144.81/img/loja-infantil-exemplo.assiz.com.br2.gif",
     tech: "",
     link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
     repo: "https://github.com/" }, /*#__PURE__*/
     React.createElement("small", null, ""), /*#__PURE__*/
     React.createElement("p", null, "Menu e sub-menu agíl para buscar por categoria, sub-categoria, cor, tamanho, ou preço.")), /*#__PURE__*/
+
+
+
+    React.createElement(Project, {
+    title: "Página do produto.",
+    img:
+    "http://135.148.144.81/img/loja-infantil-exemplo.assiz.com.br3.gif",
+    tech: "",
+    link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
+    repo: "https://github.com/" }, /*#__PURE__*/
+    React.createElement("small", null, ""), /*#__PURE__*/
+    React.createElement("p", null, "Página do produto simples e objetiva, mais foco para sua venda. Escolha o tamanho e ou cor e prontinho.. mais um produto vendido. Cesta simples e acertiva para uma execelente conversão.")), /*#__PURE__*/
+
+
+
+      React.createElement(Project, {
+      title: "Super adaptado para Smartphones.",
+      img:
+      "http://135.148.144.81/img/loja-infantil-exemplo.assiz.com.br4.gif",
+      tech: "",
+      link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
+      repo: "https://github.com/" }, /*#__PURE__*/
+      React.createElement("small", null, ""), /*#__PURE__*/
+      React.createElement("p", null, "Sua loja com um design responsivo e bem adaptado para smartphones.")), /*#__PURE__*/
 
 
     ))));
