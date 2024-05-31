@@ -219,9 +219,9 @@ a:active {
 
 .social {
   position: absolute;
-  width: 65%;
+  display: flex;
+  width: 50%;
   text-align: center;
-  margin-top: -70px;
 }
 
 .social a {
@@ -535,7 +535,8 @@ a:active {
   position: relative;
   clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
   z-index: 5;
-  background: #fafafa url(/public/img/marciel.png) center right no-repeat;
+  background: #fafafa center right no-repeat;
+  /*background: #fafafa url(/public/img/marciel.png) center right no-repeat;*/
   -webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
   background-attachment: fixed;
@@ -674,12 +675,14 @@ a:active {
   overflow: hidden;
   text-align: center;
   border: 1px solid #fafafa;
+  border-radius: 2%;
   box-shadow: 0 20px 10px -10px #25293450;
   transition: 300ms;
 }
 
 #projects .project .project-link:hover {
   box-shadow: 0 50px 15px -30px #25293450;
+  border-radius: 2%;
 }
 
 #projects .project .project-link:hover > img {
@@ -692,6 +695,7 @@ a:active {
   transform: scale(1);
   filter: saturate(1.5);
   transition: all 300ms;
+  border-radius: 2%;
 }
 
 /* Project Details */
@@ -802,6 +806,7 @@ a:active {
 .heading-wrapper .heading .title {
   font-size: 3rem;
   line-height: 2.4rem;
+  margin-top: 80px;
 }
 
 .heading-wrapper .heading .separator {

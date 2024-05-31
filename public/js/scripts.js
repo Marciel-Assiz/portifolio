@@ -118,55 +118,41 @@ return /*#__PURE__*/(
     React.createElement("div", { className: "heading" }, /*#__PURE__*/
     React.createElement("h3", { className: "title" }, "Meus trabalhos"), /*#__PURE__*/
     React.createElement("p", { className: "separator" }), /*#__PURE__*/
-  React.createElement("p", { className: "subtitle" }, "Logo abaixo você verá alguns exemplos com animações de uma loja virtual criada por mim, com algumas explicações das suas funcionalidades.")),
+  React.createElement("p", { className: "subtitle" }, "Logo abaixo você verá alguns exemplos com animações de alguns projetos criados por mim, com algumas explicações do seu principal objeto e das suas funcionalidades.")),
 
 
     React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
     React.createElement(Project, {
-    title: "Design moderno",
-    img:
-    "http://135.148.144.81/img/loja-infantil-exemplo.assiz.com.br.gif",
+    title: "Loja de Roupas Infantil",
+    img:"/public/img/loja-de-roupas-kids.gif",
     tech: "",
     link: "http://135.148.144.81/?pag=loja-de-roupas-kids/"},
     //repo: "https://github.com/" }, /*#__PURE__*/
-    React.createElement("small", null, "Loja desenvolvida sobre o framework Laravel."), /*#__PURE__*/
-    React.createElement("p", null, "Ecommerce com um visual bonito, prático e responsivo.")), /*#__PURE__*/
+    React.createElement("small", null, "Loja de roupas para criança desenvolvida sobre o framework Laravel em PHP entre outras tecnologias como JS, JQuery, Css."), /*#__PURE__*/
+    React.createElement("p", null, "Ecommerce com um visual bonito, prático e responsivo. Super adaptado para dispositivos mobiles")), /*#__PURE__*/
 
 
 
     React.createElement(Project, {
-    title: "Menu inteligente e responsivo.",
-    img:
-    "http://135.148.144.81/img/loja-infantil-exemplo.assiz.com.br2.gif",
-    tech: "",
-    link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
-    repo: "https://github.com/" }, /*#__PURE__*/
-    React.createElement("small", null, ""), /*#__PURE__*/
-    React.createElement("p", null, "Menu e sub-menu agíl para buscar por categoria, sub-categoria, cor, tamanho, ou preço.")), /*#__PURE__*/
+    title: "Dashboard(Painel)",
+    img:   "/public/img/dashboard.gif",
+    tech:  "",
+    link:  "http://135.148.144.81/?pag=loja-de-roupas-kids/",
+    repo:  "https://github.com/" }, /*#__PURE__*/
+    React.createElement("small", null, "Dashboard desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, bootstrap, JQuery, Css"), /*#__PURE__*/
+    React.createElement("p", null, "Dashboard, painel responsável por administrar os produto de uma loja. Busca de produtos instantanea, usando ajax, mostra o produto na hora da pesquisa, letra por letra digitada.")), /*#__PURE__*/
 
 
 
     React.createElement(Project, {
-    title: "Página do produto.",
-    img:
-    "http://135.148.144.81/img/loja-infantil-exemplo.assiz.com.br3.gif",
+    title: "Checkout",
+    img: "/public/img/checkout.gif",
     tech: "",
     link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
     repo: "https://github.com/" }, /*#__PURE__*/
-    React.createElement("small", null, ""), /*#__PURE__*/
-    React.createElement("p", null, "Página do produto simples e objetiva, mais foco para sua venda. Escolha o tamanho e ou cor e prontinho.. mais um produto vendido. Cesta simples e acertiva para uma execelente conversão.")), /*#__PURE__*/
+    React.createElement("small", null, "Checkout desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, JQuery, Css"), /*#__PURE__*/
+    React.createElement("p", null, "Checkout transparente e responsivo para maior segurança na finalização da compra, evitando cesta abandonadas aumentando a conversão de vendas.")), /*#__PURE__*/
 
-
-
-      React.createElement(Project, {
-      title: "Super adaptado para Smartphones.",
-      img:
-      "http://135.148.144.81/img/loja-infantil-exemplo.assiz.com.br4.gif",
-      tech: "",
-      link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
-      repo: "https://github.com/" }, /*#__PURE__*/
-      React.createElement("small", null, ""), /*#__PURE__*/
-      React.createElement("p", null, "Sua loja com um design responsivo e bem adaptado para smartphones.")), /*#__PURE__*/
 
 
     ))));
