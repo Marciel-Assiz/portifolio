@@ -146,4 +146,7 @@
   #projects .project .project-details {
     padding: 4%;
   }
+  .social {
+    margin-left: -5%;
+  }
 }

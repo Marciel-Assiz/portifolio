@@ -60,158 +60,25 @@ const Nav = props => {
   Header Component
  ***********************/
 const Header = props => {
-  return /*#__PURE__*/(
-    React.createElement("header", { id: "welcome-section" }, /*#__PURE__*/
-    React.createElement("div", { className: "forest" }), /*#__PURE__*/
-    React.createElement("div", { className: "silhouette" }), /*#__PURE__*/
-    React.createElement("div", { className: "moon" }), /*#__PURE__*/
-    React.createElement("div", { className: "container" }, /*#__PURE__*/
-    React.createElement("h1", null, /*#__PURE__*/
-    React.createElement("span", { className: "line" }, "Eu"), /*#__PURE__*/
-    React.createElement("span", { className: "line" }, "desenvolvo"), /*#__PURE__*/
-    React.createElement("span", { className: "color" }, "sua"), " loja virtual, ou", /*#__PURE__*/
-    React.createElement("span", { className: "line" }, /*#__PURE__*/
-    React.createElement("span", { className: "color" }, "seu"), " website.")), /*#__PURE__*/
-
-    React.createElement("div", { className: "buttons" }, /*#__PURE__*/
-    React.createElement("a", { href: "#projects" }, "Meu Portfolio"), /*#__PURE__*/
-    React.createElement("a", { href: "#contact", className: "cta" }, "Entrar em contato")))));
+    return /*#__PURE__*/(
+        React.createElement("header", { id: "welcome-section" },
+        React.createElement("div", { className: "container" },
+        React.createElement("div", { className: "card" },
+        React.createElement("div", { className: "card-header" },"Privacy Policy"),
+        React.createElement("div", { className: "card-body" },
+        React.createElement("h4", { className: "card-title" },"Politica de Privacidade e Segurança"),
+        React.createElement("p", { className: "card-text" },"Nossa Política de Privacidade e Segurança tem por objetivo demonstrar o compromisso com a segurança e a privacidade das informações coletadas através de cadastro de usuários em nosso site."),
+        React.createElement("p", { className: "card-text" },"Todos os dados (nome, endereço, número de cartão de crédito, etc.) postados em nosso formulário de cadastro são transmitidos em modo de segurança (SSL - Secure Socket Layer) onde todas as informações são protegidas por sistemas avançados de criptografia e apenas o nosso servidor poderá interpretá-las. Dessa forma, impossibilitamos a interceptação destes dados por terceiros, tornando sua compra totalmente segura."),
+        React.createElement("p", { className: "card-text" },"Adotamos os níveis totalmente requeridos quanto à segurança na proteção de dados, tendo adotado medidas técnicas para se evitar mau uso, alteração, acesso não autorizado ou subtração indevida de dados pessoais recolhidos."),
+        React.createElement("p", { className: "card-text" },"Os usuários poderão exercer os direitos de acesso, cancelamento, retificação e oposição. Bem como têm o direito de obterem informações mediante contato através do e-mail: marciel.emersom@gmail.com"),
+        React.createElement("p", { className: "card-text" },"Os usuários poderão, a qualquer momento, corrigir ou atualizar as informações fornecidas e demais dados cadastrais no próprio site. Ao se cadastrar no site, é necessário que você determine uma senha para realizar o Login pode ser que você não use o LOGIN COM FACEBOOK, sendo assim necessário memorizar sua senha, se você esquecê-la e quiser redefini-la, ou se quiser alterá-la por razões de segurança, faça uma solicitação de ?nova senha?. O sistema fará a redefinição da mesma e enviará uma nova senha através do e-mail cadastrado. Querendo modificá-la, basta acessar o seu cadastro e fazer a troca."),
+        React.createElement("p", { className: "card-text" },"Lembre-se que ao acessar esse site e/ou fornecer seus dados pessoais, o usuário automaticamente declara conhecer e aceitar os termos das Condições de Uso e da Política da Privacidade."),
+        React.createElement("p", { className: "card-text" },"Será de total responsabilidade do usuário a garantia da veracidade e exatidão dos dados pessoais fornecidos neste site, ficando certo que o usuário assume quaisquer responsabilidades e/ou transtornos quanto à inexatidão de tais informações, podendo ainda dar-nos o direito de: suspender ou cancelar imediatamente, independente de notificação, a conta de cadastro do usuário e recusar toda e qualquer utilização."),
+        React.createElement("p", { className: "card-text" },"Somos autorizados a transmitir seus dados a terceiros caso isto seja necessário para cumprir regulações legais (por exemplo, da Lei Federal de Proteção de Dados), como no caso da transmissão de dados a autoridades de perseguição penal e inspeção para fins de defesa de perigos para a segurança pública, bem como a perseguição penal."),
+        React.createElement("p", { className: "card-text" },"Trabalhamos com ética e respeito, oferecendo um serviço de qualidade e com total segurança"),
+    )))));
 };
 
-/***********************
-  About Component
- ***********************/
-const About = props => {
-  return /*#__PURE__*/(
-    React.createElement("section", { id: "about" }, /*#__PURE__*/
-    React.createElement("div", { className: "wrapper" }, /*#__PURE__*/
-    React.createElement("article", null, /*#__PURE__*/
-    React.createElement("div", { className: "title" }, /*#__PURE__*/
-    React.createElement("h3", null, "Quem é esse cara?"), /*#__PURE__*/
-    React.createElement("p", { className: "separator" })), /*#__PURE__*/
-
-    React.createElement("div", { className: "desc full" }, /*#__PURE__*/
-    React.createElement("h4", { className: "subtitle" }, "Oii.. meu nome é Marciel."), /*#__PURE__*/
-    React.createElement("p", null, "Sou um programador/desenvolvedor web localizado na zona norte de Curitiba, Paraná."), /*#__PURE__*/
-
-    React.createElement("p", null, "Eu adoro encarar novos desafios, principalmente daqueles que colocam nossas habilidades em prática, gosto de resolver problemas e também de tornar as coisas bonitas e fáceis de usar. Não consigo parar de aprender coisas novas; autoditada desde cedo. Também adoro carros e motores, já fui pintor automotivo por mais de dez anos. Hoje levo apenas como hobby!")), /*#__PURE__*/
-
-    React.createElement("div", { className: "title" }, /*#__PURE__*/
-    React.createElement("h3", null, "Mas afinal o que eu faço?"), /*#__PURE__*/
-    React.createElement("p", { className: "separator" })), /*#__PURE__*/
-
-    React.createElement("div", { className: "desc" }, /*#__PURE__*/
-    React.createElement("h4", { className: "subtitle" }, "Eu sou um programador WEB."),
-    React.createElement("p", null, "Para o front-end costumo trabalhar com HTML, Javascript e CSS, trabalho com essas tecnologias puras ou incluindo frameworks populares como Bootstrap, Ajax, JQuery"),
-
-    React.createElement("p", null, "Para back-end do preferencia para o framework em PHP Laravel, por conta da sua segurança, porém em pequenas projetos onde a hospedagem não permite acesso as configuracões do servidor então uso PHP puro. Estou iniciando alguns projetos também com Node, então não seria problema dar manutenção em algum projeto que use essa tecnologia. No armazenamento uso com mais frequencia o MySQL, MariaDB. Mas tenho projetos com bancos não relacionais também como MongoDB.")), /*#__PURE__*/
-    ))));
-};
-
-/***********************
-  Projects Component
- ***********************/
-const Projects = props => {
-return /*#__PURE__*/(
-    React.createElement("section", { id: "projects" }, /*#__PURE__*/
-    React.createElement("div", { className: "projects-container container-fluid" }, /*#__PURE__*/
-    React.createElement("div", { className: "heading" }, /*#__PURE__*/
-    React.createElement("h3", { className: "title" }, "Meus trabalhos"), /*#__PURE__*/
-    React.createElement("p", { className: "separator" }), /*#__PURE__*/
-    React.createElement("p", { className: "subtitle" }, "Logo abaixo você verá alguns exemplos com animações de alguns projetos criados por mim, com algumas explicações do seu principal objeto e das suas funcionalidades.")),
-
-
-    React.createElement("div", { className: "projects-wrapper" }, /*#__PURE__*/
-
-    React.createElement(Project, {
-    title: "Loja de Roupas Infantil",
-    img:   "public/img/loja-de-roupas-kids.gif",
-    tech:  "",
-    link:  "http://135.148.144.81/?pag=loja-de-roupas-kids/",
-    repo:  "https://github.com/Marciel-Assiz/Loja_de_Roupas_Infantil/" }, /*#__PURE__*/
-    React.createElement("small", null, "Loja de roupas para criança desenvolvida sobre o framework Laravel em PHP entre outras tecnologias como JS, JQuery, Css."), /*#__PURE__*/
-    React.createElement("p", null, "Ecommerce com um visual bonito, prático e responsivo. Super adaptado para dispositivos mobiles")), /*#__PURE__*/
-  
-
-
-    React.createElement(Project, {
-    title: "Dashboard(Painel)",
-    img:   "public/img/dashboard.gif",
-    tech:  "",
-    link:  "http://135.148.144.81/?pag=loja-de-roupas-kids/",
-    repo:  "https://github.com/" }, /*#__PURE__*/
-    React.createElement("small", null, "Dashboard desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, bootstrap, JQuery, Css"), /*#__PURE__*/
-    React.createElement("p", null, "Dashboard, painel responsável por administrar os produto de uma loja. Busca de produtos instantanea, usando ajax, mostra o produto na hora da pesquisa, letra por letra digitada.")), /*#__PURE__*/
-
-
-
-    React.createElement(Project, {
-    title: "Checkout",
-    img: "public/img/checkout.gif",
-    tech: "",
-    link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
-    repo: "https://github.com/" }, /*#__PURE__*/
-    React.createElement("small", null, "Checkout desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, JQuery, Css"), /*#__PURE__*/
-    React.createElement("p", null, "Checkout transparente e responsivo para maior segurança na finalização da compra, evitando cesta abandonadas aumentando a conversão de vendas.")), /*#__PURE__*/
-
-
-
-    ))));
-};
-  
-/***********************
-  Project Component
- ***********************/
-const Project = props => {
-  const tech = {
-    sass: "fab fa-sass",
-    css: "fab fa-css3-alt",
-    js: "fab fa-js-square",
-    react: "fab fa-react",
-    vue: "fab fa-vuejs",
-    d3: "far fa-chart-bar",
-    node: "fab fa-node" };
-
-
-  const link = props.link || "http://";
-  const repo = props.repo || "http://";
-
-  return /*#__PURE__*/(
-    React.createElement("div", { className: "project col-12" }, /*#__PURE__*/
-    React.createElement("a", {
-      className: "project-link",
-      href: link,
-      target: "_blank",
-      rel: "noopener noreferrer" }, /*#__PURE__*/
-
-    React.createElement("img", {
-      className: "project-image",
-      src: props.img,
-      alt: "Screenshot of " + props.title })), /*#__PURE__*/
-
-
-    React.createElement("div", { className: "project-details" }, /*#__PURE__*/
-    React.createElement("div", { className: "project-tile" }, /*#__PURE__*/
-    React.createElement("p", { className: "icons" },
-    props.tech.split(" ").map((t) => /*#__PURE__*/
-    React.createElement("i", { className: tech[t], key: t }))),
-
-
-    props.title, " "),
-
-    props.children, /*#__PURE__*/
-    React.createElement("div", { className: "buttons" }, /*#__PURE__*/
-    React.createElement("a", { className: "fa-view-source", href: repo, target: "_blank", rel: "noopener noreferrer" }, "Ver código ", /*#__PURE__*/
-    React.createElement("i", { className: "fas fa-external-link-alt" })), /*#__PURE__*/
-
-    React.createElement("a", { href: link, target: "_blank", rel: "noopener noreferrer" }, "Ver online", /*#__PURE__*/
-    React.createElement("i", { className: "fas fa-external-link-alt" }))))));
-
-
-
-
-
-};
 
 /***********************
   Contact Component
@@ -264,7 +131,7 @@ const Footer = props => {
       href: "/politica-de-privacidade.html",
       target: "",
       rel: "noopener noreferrer",
-      title: "Link para a página de Politica de privacidade" }," Politica de Privacidade"
+      title: "Link para a página de Politica de privacidade" }," Politica de privacidade"
     ),
     React.createElement("a", {
       href: "/solicitar-exclusao-dos-dados.html",
@@ -364,8 +231,6 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
       React.createElement(Menu, { toggleMenu: this.toggleMenu, showMenu: this.state.menuState }), /*#__PURE__*/
       React.createElement(Nav, { toggleMenu: this.toggleMenu, showMenu: this.state.menuState }), /*#__PURE__*/
       React.createElement(Header, null), /*#__PURE__*/
-      React.createElement(About, null), /*#__PURE__*/
-      React.createElement(Projects, null), /*#__PURE__*/
       React.createElement(Contact, null), /*#__PURE__*/
       React.createElement(Footer, null)));
 
@@ -415,4 +280,4 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
   }}
 
 
-ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById("app"));
+ReactDOM.render(React.createElement(App, null), document.getElementById("app"));

@@ -1,0 +1,16 @@
+/* CSS for politica-de-privacidade.html only */
+
+#welcome-section .container {
+    position: initial;
+    padding-top: 90%;
+    font-size: 160%;
+}
+
+@media only screen and (max-width: 500px)
+{
+    #welcome-section .container {
+        transform: none;
+        padding-top: 20%;
+        font-size: 120%;
+    }
+}
