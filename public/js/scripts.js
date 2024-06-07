@@ -125,7 +125,7 @@ return /*#__PURE__*/(
 
     React.createElement(Project, {
     title: "Loja de Roupas Infantil",
-    img:   "public/img/loja-de-roupas-kids.png",
+    img:   "public/img/loja-de-roupas-infantil.png",
     tech:  "",
     link:  "assiz.com.br/?pag=loja-de-roupas-kids/",
     repo:  "https://github.com/Marciel-Assiz/Loja_de_Roupas_Infantil/" }, /*#__PURE__*/
