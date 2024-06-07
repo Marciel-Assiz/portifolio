@@ -125,9 +125,9 @@ return /*#__PURE__*/(
 
     React.createElement(Project, {
     title: "Loja de Roupas Infantil",
-    img:   "public/img/loja-de-roupas-kids.gif",
+    img:   "public/img/loja-de-roupas-kids.png",
     tech:  "",
-    link:  "http://135.148.144.81/?pag=loja-de-roupas-kids/",
+    link:  "assiz.com.br/?pag=loja-de-roupas-kids/",
     repo:  "https://github.com/Marciel-Assiz/Loja_de_Roupas_Infantil/" }, /*#__PURE__*/
     React.createElement("small", null, "Loja de roupas para criança desenvolvida sobre o framework Laravel em PHP entre outras tecnologias como JS, JQuery, Css."), /*#__PURE__*/
     React.createElement("p", null, "Ecommerce com um visual bonito, prático e responsivo. Super adaptado para dispositivos mobiles")), /*#__PURE__*/
@@ -138,7 +138,7 @@ return /*#__PURE__*/(
     title: "Dashboard(Painel)",
     img:   "public/img/dashboard.gif",
     tech:  "",
-    link:  "http://135.148.144.81/?pag=loja-de-roupas-kids/",
+    link:  "assiz.com.br/?pag=loja-de-roupas-kids/",
     repo:  "https://github.com/" }, /*#__PURE__*/
     React.createElement("small", null, "Dashboard desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, bootstrap, JQuery, Css"), /*#__PURE__*/
     React.createElement("p", null, "Dashboard, painel responsável por administrar os produto de uma loja. Busca de produtos instantanea, usando ajax, mostra o produto na hora da pesquisa, letra por letra digitada.")), /*#__PURE__*/
@@ -149,7 +149,7 @@ return /*#__PURE__*/(
     title: "Checkout",
     img: "public/img/checkout.gif",
     tech: "",
-    link: "http://135.148.144.81/?pag=loja-de-roupas-kids/",
+    link: "assiz.com.br/?pag=loja-de-roupas-kids/",
     repo: "https://github.com/" }, /*#__PURE__*/
     React.createElement("small", null, "Checkout desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, JQuery, Css"), /*#__PURE__*/
     React.createElement("p", null, "Checkout transparente e responsivo para maior segurança na finalização da compra, evitando cesta abandonadas aumentando a conversão de vendas.")), /*#__PURE__*/
