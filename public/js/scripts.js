@@ -149,7 +149,7 @@ return /*#__PURE__*/(
     title: "Checkout",
     img: "public/img/checkout.gif",
     tech: "",
-    link: "https://exemples.assiz.com.br/?link=checkout",
+    link: "https://exemplos.assiz.com.br/?link=checkout",
     repo: "https://github.com/Marciel-Assiz/checkout/" }, /*#__PURE__*/
     React.createElement("small", null, "Checkout desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, JQuery, Css"), /*#__PURE__*/
     React.createElement("p", null, "Checkout transparente e responsivo para maior segurança na finalização da compra, evitando cesta abandonadas aumentando a conversão de vendas.")), /*#__PURE__*/
