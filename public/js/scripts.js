@@ -138,7 +138,7 @@ return /*#__PURE__*/(
     title: "Dashboard(Painel)",
     img:   "public/img/dashboard.gif",
     tech:  "",
-    link:  "https://exemplos.assiz.com.br/?link=dashboard",
+    link:  "https://exemplos.assiz.com.br/painel?link=dashboard",
     repo:  "https://github.com/Marciel-Assiz/dashboard" }, /*#__PURE__*/
     React.createElement("small", null, "Dashboard desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, bootstrap, JQuery, Css"), /*#__PURE__*/
     React.createElement("p", null, "Dashboard, painel responsável por administrar os produto de uma loja. Busca de produtos instantanea, usando ajax, mostra o produto na hora da pesquisa, letra por letra digitada.")), /*#__PURE__*/
@@ -149,7 +149,7 @@ return /*#__PURE__*/(
     title: "Checkout",
     img: "public/img/checkout.gif",
     tech: "",
-    link: "https://exemplos.assiz.com.br/?link=checkout",
+    link: "https://exemplos.assiz.com.br/checkout/?link=checkout",
     repo: "https://github.com/Marciel-Assiz/checkout/" }, /*#__PURE__*/
     React.createElement("small", null, "Checkout desenvolvido sobre o framework Laravel em PHP entre outras tecnologias como JS, JQuery, Css"), /*#__PURE__*/
     React.createElement("p", null, "Checkout transparente e responsivo para maior segurança na finalização da compra, evitando cesta abandonadas aumentando a conversão de vendas.")), /*#__PURE__*/
