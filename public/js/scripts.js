@@ -138,7 +138,7 @@ return /*#__PURE__*/(
 
     React.createElement(Project, {
     title: "Dashboard(Painel)",
-    img:   "public/img/dashboard.gif",
+    img:   "public/img/dashboard.png",
     tech:  "",
     link:  "https://exemplos.assiz.com.br/painel?link=dashboard",
     repo:  "https://github.com/Marciel-Assiz/dashboard" }, /*#__PURE__*/
@@ -149,7 +149,7 @@ return /*#__PURE__*/(
 
     React.createElement(Project, {
     title: "Checkout",
-    img: "public/img/checkout.gif",
+    img: "public/img/checkout.png",
     tech: "",
     link: "https://exemplos.assiz.com.br/checkout/?link=checkout",
     repo: "https://github.com/Marciel-Assiz/checkout/" }, /*#__PURE__*/
