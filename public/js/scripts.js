@@ -62,8 +62,10 @@ const Nav = props => {
 const Header = props => {
   return /*#__PURE__*/(
     React.createElement("header", { id: "welcome-section" }, /*#__PURE__*/
+    React.createElement("div", { className: "city" }), /*#__PURE__*/
     React.createElement("div", { className: "forest" }), /*#__PURE__*/
     React.createElement("div", { className: "silhouette" }), /*#__PURE__*/
+    React.createElement("div", { className: "lamp" }), /*#__PURE__*/
     React.createElement("div", { className: "moon" }), /*#__PURE__*/
     React.createElement("div", { className: "container" }, /*#__PURE__*/
     React.createElement("h1", null, /*#__PURE__*/
@@ -373,19 +375,23 @@ class App extends React.Component {constructor(...args) {super(...args);_defineP
   }
 
   componentDidMount() {
-    const navbar = document.querySelector("#navbar");
-    const header = document.querySelector("#welcome-section");
-    const forest = document.querySelector(".forest");
+    const navbar     = document.querySelector("#navbar");
+    const header     = document.querySelector("#welcome-section");
+    const forest     = document.querySelector(".forest");
+    const city       = document.querySelector(".city");
+    const lamp       = document.querySelector(".lamp");
     const silhouette = document.querySelector(".silhouette");
-    let forestInitPos = -300;
+    let forestInitPos = -300; let cityInitPos = -212;
 
     window.onscroll = () => {
       let scrollPos =
       document.documentElement.scrollTop || document.body.scrollTop;
 
       if (scrollPos <= window.innerHeight) {
-        silhouette.style.bottom = `${parseInt(scrollPos / 6)}px`;
-        forest.style.bottom = `${parseInt(forestInitPos + scrollPos / 6)}px`;
+        city.style.bottom       = `${parseInt(cityInitPos - (scrollPos / 2))}px`;
+        silhouette.style.bottom = `${parseInt(-40 - scrollPos / 5)}px`;
+        lamp.style.bottom       = `${parseInt(-40 * scrollPos / 12)}px`;
+        forest.style.bottom     = `${parseInt(forestInitPos - scrollPos / 5)}px`;
       }
 
       if (scrollPos - 100 <= window.innerHeight)
