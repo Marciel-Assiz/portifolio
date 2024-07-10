@@ -87,7 +87,7 @@
   }
 
   .silhouette {
-    width: 100%;
+    width: 40%;
   }
   
   #welcome-section .container {
@@ -96,6 +96,10 @@
     width: 80%;
     transform: translate(50%, 0);
     animation: text-fade-in 1000ms 800ms forwards;
+  }
+
+  #welcome-section .container h1 {
+    font-size: 3rem;
   }
 
   @keyframes overlay-slide-out {
